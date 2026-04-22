@@ -108,7 +108,6 @@ def test_transient(nominal_volt, maxCurrent):
         rm.close()
 
 if __name__ == "__main__":
-    test_transient(3.6, 2.5);
-    test_transient(1.8, 3.0);
-    test_transient(3.3, 3.0);
-    test_transient(2.5, 1.5);
+    config = [{3.6, 2.5},{1.8, 3.0}, {3.3, 3.0}, {2.5, 1.5}];
+    for v,i in config:
+        test_transient(v,i);
