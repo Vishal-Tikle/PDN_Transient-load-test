@@ -76,5 +76,4 @@ Reference:
 7. https://www.keysight.com/us/en/assets/9018-07124/programming-guides/9018-07124.pdf?success=true
 8. https://keyoscacquire.readthedocs.io/en/v3.0.2/
 9. https://download.tek.com/manual/DMM6500-901-01_A_April_2018_Ref_DMM6500-901-01A.pdf
-10. https://www.mouser.com/datasheet/3/720/1/2380_DataSheet.pdf?srsltid=AfmBOoolBcKqD
-11. GtJFpYjMJG9WK9UBBXrrjSmH2b_a2lgYeDdFnnjnbU
+10. https://www.mouser.com/datasheet/3/720/1/2380_DataSheet.pdf?srsltid=AfmBOoolBcKqD-GtJFpYjMJG9WK9UBBXrrjSmH2b_a2lgYeDdFnnjnbU
