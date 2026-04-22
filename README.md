@@ -55,7 +55,7 @@
 	# Trigger on voltage drop
 	scope.write(":TRIGger:EDGE:SLOPe NEGative")
 
-# 5. Capture Digital Multimeter reading voltage
+# 5. Reading DC voltage using Digital Multimeter 
 	dmm.query("MEAS:VOLT:DC?")
 
 # 6. Acquiring wave form Oscilloscope
