@@ -96,7 +96,7 @@ def test_transient(nominal_volt, maxCurrent):
         file_id.write(data)
         file_id.close()
 
-        print(f"Test Complete. Report saved to {filename}")
+        print(f"{nominal_volt}V test complete.")
 
     except Exception as e:
         print(f"Error during test: {e}")
