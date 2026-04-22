@@ -3,7 +3,6 @@ import time
 from datetime import datetime
 import csv
 import numpy as np
-import matplotlib.pyplot as plt
 
 # --- Test Parameters ---
 V_IN = 5.0  # Input Voltage
