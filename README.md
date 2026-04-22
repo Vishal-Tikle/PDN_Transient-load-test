@@ -1,6 +1,6 @@
 # Transient-load-test
 
-1. Initialization of Equipments
+# 1. Initialization of Equipments
   Keithley 2230 - GPIB TO USB
   Keithley 2380 - GPIB TO USB
   Keysight DSOX6004A - USB
@@ -14,8 +14,8 @@
 	inst.query('*OPC?')            # Wait for operation complete
 	errors = inst.query('SYST:ERR?')  # Check error queue
 
-3. Configure Programmable DC Power Supply (Keithley 2230-30-1)
-	# Turn on remote mode (so that SCPI commands work)
+# 3. Configure Programmable DC Power Supply (Keithley 2230-30-1)
+	Turn on remote mode (so that SCPI commands work)
 	vm.write('SYST:REM')
 	vm.write('APPL CH1, 12V, 3A’) #change as per requirement
 	vm.write('OUTP ON')
